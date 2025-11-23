@@ -19,7 +19,7 @@ header {
     margin: 0;
     background-color: var(--header-back-color);
     top: 0px;
-    width: 100%;
+    width: auto;
 }
 
 header h1 {
@@ -83,5 +83,6 @@ body {
     border: 10px solid var(--color1);
 
 }
+
 
 
