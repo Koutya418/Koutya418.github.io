@@ -1,0 +1,83 @@
+:root {
+    --color1: #001f42;
+    --color2: #00345d;
+    --color3: #79a1c0;
+    --color4: #d0dee8;
+    --color5: #F3F7F9;
+    --color6: #FCFDFE;
+    --color7: #c5edef;
+    --color8: #33b9bb;
+    --color9: #11225b;
+    --header-back-color: var(--color9);
+    --text-color: var(--color2);
+    --text-stroke-color: var(--color1);
+}
+
+header {
+    display: flex;
+    position: sticky;
+    margin: 0;
+    background-color: var(--header-back-color);
+    top: 0px;
+    width: 100%;
+    height: 4em;
+}
+
+header h1 {
+    margin: 1%;
+}
+header a {
+    container: calc();
+    font-weight: bold;
+    color: var(--color6);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+.container {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.dog_tag {
+    font-weight: bold;
+    list-style: none;
+    background-color: var(--color5);
+    padding: 1%;
+    border-radius: 30px;
+}
+
+.dog_tag a {
+    color: var(--text-color);
+}
+
+.dog_tag li {
+    list-style: none;
+}
+
+.dog_tag h2 {
+    border-bottom: 3px solid var(--color1);
+    display: block;
+}
+
+.ub_b_text {
+    border-bottom: 3px solid var(--color1);
+    display: block;
+}
+
+.ub_ib_text {
+    border-bottom: 3px solid var(--color1);
+    display: inline-block;
+}
+
+#home_icon {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 15%;
+    border-radius: 50px;
+    border: 10px solid var(--color1);
+}
