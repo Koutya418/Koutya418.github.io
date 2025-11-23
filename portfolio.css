@@ -20,11 +20,10 @@ header {
     background-color: var(--header-back-color);
     top: 0px;
     width: 100%;
-    height: 4em;
 }
 
 header h1 {
-    margin: 1%;
+    margin: 0.5%;
 }
 header a {
     container: calc();
@@ -78,6 +77,7 @@ body {
     margin-left: 1%;
     margin-right: 1%;
     width: 15%;
-    border-radius: 50px;
+    border-radius: 15%;
     border: 10px solid var(--color1);
+
 }
