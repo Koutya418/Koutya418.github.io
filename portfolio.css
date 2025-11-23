@@ -34,6 +34,7 @@ header a {
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
     color: var(--text-color);
 }
 
@@ -81,3 +82,4 @@ body {
     border: 10px solid var(--color1);
 
 }
+
