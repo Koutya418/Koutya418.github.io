@@ -22,7 +22,7 @@ header {
     width: auto;
 }
 
-header h1 {
+header h2 {
     margin: 0.5%;
 }
 header a {
@@ -83,6 +83,7 @@ body {
     border: 10px solid var(--color1);
 
 }
+
 
 
 
