@@ -15,6 +15,8 @@
 
 header {
     display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
     position: sticky;
     margin: 0;
     background-color: var(--header-back-color);
